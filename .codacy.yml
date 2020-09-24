@@ -1,0 +1,16 @@
+---
+exclude_paths:
+  - 'src/dft/generated/*.py'
+  - 'src/dft/protos/**'
+  - 'tests/data/**'
+  - 'tools/**'
+  - 'docs/**'
+  - 'versioneer.py'
+  - 'setup.py'
+  - 'src/dft/_version.py'
+  - 'src/dft/measure.py'
+  - 'start_dft.py'
+engines:
+  duplication:
+    exclude_paths:
+      - 'tests/**'
